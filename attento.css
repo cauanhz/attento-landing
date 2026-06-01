@@ -480,7 +480,8 @@ section{position:relative}
   .nav-cta{display:none}
   .why-grid,.svc-grid,.about-values{grid-template-columns:1fr}
   .hero{padding:140px 0 60px}
-  .hero-cta .btn{flex:1}
+  .hero-cta{flex-direction:column}
+  .hero-cta .btn{width:100%}
   .hero-visual{height:380px}
   .hero-float.f1{left:-10px}.hero-float.f2{right:-6px}
   .form-card,.loc-info{padding:30px 24px}
